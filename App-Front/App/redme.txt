@@ -1,0 +1,27 @@
+
+[ Introdução ao Projeto ]
+
+
+Objetivo do projeto : Projeto foi desenvolvido em objetivo academico visando desenvolver e mostrar habilidades tecnicas . 
+
+Ideia do projeto : A proposta deste projeto é que um usuario possa cadastar dispesas, fazer consultas mensais de dispesas cadastradas 
+e conseguir realizar um acompanhamento em forma de graficos os seus gastos 
+
+tecnologias usadas: 
+
+Front-end: {
+    html 
+    css
+    JavaScript
+}
+
+Back-end: {
+    Java
+    Spring-Boot
+}
+
+( Amazon web services) {
+    servidor ec2 
+    Amazon S3 
+    DataBase RDS
+}

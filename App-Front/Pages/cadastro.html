@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style/headers.css">
+    <link rel="stylesheet" href="/Style/paginaCadastro/main.css">
+    <link rel="stylesheet" href="/Style/footer.css">
+    <link rel="stylesheet" href="/Style/page.css">
+    <link rel="stylesheet" href="/Style/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    
+    <title>Projeto Financeiro</title>
+</head>
+<body>
+    <header class="box-navbar">
+        <nav class="navbar-container">
+            <div class="navbar-logo">Projeto Financeiro</div>
+            <div class="navbar-content">
+                <a href="/Pages/index.html" class="navbar-link">Inicio</a>
+                <a href="/Pages/consultas.html" class="navbar-link">Consultas</a>
+                <a href="/Pages/cadastro.html" class="navbar-link">Cadastro</a>
+                <a href="/Pages/graficos.html" class="navbar-link">Graficos</a>
+            </div>
+        </nav>
+    </header>
+    <main class="box-formulario">
+        <form class="formulario-container" >
+            <div class="formulario-content">
+              <h1>Cadastre a sua despesa !</h1>
+             <span class="formulario-input">
+                <label for="destino">Selecione onde o valor foi gasto:</label>
+                <input type="text" class="input-destino" id="destino" data-form>
+            </span>
+             <span class="formulario-input">
+                <label for="date">Defina o mes correspondente ao gasto!</label>
+                <input type="month" class="input-date" id="date" data-form>
+            </span>
+             <span class="formulario-input ">
+                <label for="amount">Defina o valor que foi gasto:</label>
+                <label class="container-input-amount">R$:<input type="number"class="input-amount" id="amount" data-form></label>
+            </span>
+    
+                <button type="submit" class="formulario-button" data-button> Registrar</button>
+                <div data-response></div>
+          </div>
+
+        
+
+
+        </form>
+    </main>
+    <footer class="box-footer">
+    <div class="footer-container">
+        <div class="footer-nome">Guilherme Coradello Silveira</div>
+        <div class="footer-content">
+            <div class="footer-contato">Email</div>
+            <div class="footer-contato">GitHub</div>
+            <div class="footer-contato">WhatsApp</div>
+        </div>
+    </div>
+       
+    
+    </footer>
+
+    <script src="/App/Cadastro.js"></script>
+</body>
+</html>

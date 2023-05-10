@@ -1,0 +1,39 @@
+.box-footer{
+width:100vw;
+height:10vh;
+display: flex;
+align-self: center;
+justify-content: space-around;
+}
+
+.footer-container{
+    width: 90vw;
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+   
+
+}
+
+.footer-nome{
+    font-size: 30px;
+}
+
+.footer-content{
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    padding: 5px;
+    gap: 25px;
+}
+
+.footer-contato{
+font-size: 20px;
+}
+.footer-contato:hover{
+    color: red;
+    cursor: pointer;
+}
+
+

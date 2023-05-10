@@ -1,0 +1,37 @@
+.box-navbar{
+width: 100vw;
+height: 20vh;
+
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5rem;
+    padding: 1em;
+
+}
+
+.navbar-logo{
+   font-size: 80px;
+   font-family: 'Amatic SC', cursive;
+}
+
+.navbar-content{
+    display: flex;
+    align-self: center;
+    gap: 25px;
+}
+
+.navbar-link{
+font-size: 40px;
+font-family: 'Amatic SC', cursive;
+text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+   color: white;
+
+}
+
+.navbar-link:hover{
+    text-shadow: 1px 1px 2px blue, 0 0 1em gray, 0 0 0.2em blue;
+   
+}

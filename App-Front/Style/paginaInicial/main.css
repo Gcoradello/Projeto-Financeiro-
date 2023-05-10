@@ -1,0 +1,81 @@
+.box-intro{
+    
+    width:100vw;
+    height: fit-content;
+    display: flex;
+   
+}
+
+.intro-container{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 95%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+   justify-content: center;
+     
+}
+.intro-content {
+  display: flex;
+  margin-top: 20px;
+  flex-direction:column ;
+  justify-content:space-around;
+  text-align: center;
+}
+.intro-text{
+  display: flex;
+  justify-content:space-around;
+  height: 300px;
+}
+.intro-objetivo{
+  border: 1px solid;
+  width: 45%;
+}
+.intro-ideia{
+  border: 1px solid;
+  width: 45%;
+  
+}
+.box-intro-tecnologias{
+  display: flex;
+  width: 95%;
+  align-self: center;
+  height: 300px;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.intro-tecnologias{
+  
+  width:35% ;
+  display: flex;
+  align-self: center;
+  gap:10px;
+  overflow: hidden;
+}
+.img-box{
+  display: flex;
+  align-items: center;
+  position: relative;
+  animation: slide 10s infinite linear;
+  
+}
+
+@keyframes slide {
+  0%{ left: 0px;}
+  
+  100%{left: -1700px ;}
+   
+
+  
+}
+.img-tec{
+  width: 200px;
+  display: flex;
+  align-self: center;
+  
+}
+.aws{
+  mix-blend-mode: multiply;
+}
